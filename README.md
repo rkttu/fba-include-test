@@ -62,12 +62,12 @@
 
 ### 사전 요구 사항
 
-- **.NET 10 SDK 10.0.300 이상** (`dotnet --version` 으로 확인)
+- **.NET 10 SDK 10.0.300 이상** (`dotnet --list-sdks` 으로 확인)
 - Native AOT publish 시 플랫폼별 C 컴파일러 툴체인 (Windows: VS Build Tools / MSVC, Linux: clang, macOS: Xcode CLT)
 
 ### 그냥 실행
 
-**Windows를 포함한 대부분의 OS의 경우:**
+**Windows를 포함한 모든 OS의 경우:**
 
 ```powershell
 dotnet run main.cs
